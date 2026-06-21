@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).parent
-MODEL_PATH = BASE_DIR / "models" / "model_lightgbm.pkl"
+MODEL_PATH = BASE_DIR / "model_lightgbm.pkl"
 
 TARGET_NAMES = {0: "Poor", 1: "Standard", 2: "Good"}
 TARGET_COLOR = {"Poor": "🔴", "Standard": "🟡", "Good": "🟢"}
